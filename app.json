@@ -1,1 +1,18 @@
-{"expo":{"name":"مصروف","slug":"masrouf","scheme":"masrouf","version":"1.0.0","orientation":"portrait","userInterfaceStyle":"light","android":{"package":"com.mmabdelhay.masrouf"},"plugins":["expo-router","expo-sqlite"]}}
+{
+  "expo": {
+    "name": "مصروف",
+    "slug": "masrouf",
+    "scheme": "masrouf",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.mmabdelhay.masrouf"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ],
+    "owner": "mmabdelhay"
+  }
+}
