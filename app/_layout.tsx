@@ -1,0 +1,4 @@
+import { Stack } from 'expo-router';
+import { SQLiteProvider } from 'expo-sqlite';
+import { StatusBar } from 'expo-status-bar';
+export default function Layout(){return <SQLiteProvider databaseName="masrouf.db" onInit={async db=>{await db.execAsync("PRAGMA journal_mode=WAL; CREATE TABLE IF NOT EXISTS transactions (id INTEGER PRIMARY KEY AUTOINCREMENT,amount REAL NOT NULL,type TEXT NOT NULL,category TEXT NOT NULL,note TEXT DEFAULT '',date TEXT NOT NULL); CREATE TABLE IF NOT EXISTS settings (key TEXT PRIMARY KEY,value TEXT NOT NULL);");}}><StatusBar style="light"/><Stack screenOptions={{headerShown:false}}/></SQLiteProvider>}
