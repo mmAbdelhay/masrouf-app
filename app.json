@@ -13,6 +13,11 @@
       "expo-router",
       "expo-sqlite"
     ],
-    "owner": "mmabdelhay"
+    "owner": "mmabdelhay",
+    "extra": {
+      "eas": {
+        "projectId": "e0335902-6f7e-46cd-8a54-2e3c754fe806"
+      }
+    }
   }
 }
